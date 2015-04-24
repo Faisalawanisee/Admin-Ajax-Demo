@@ -50,7 +50,7 @@ function add_process_ajax(){
 			foreach ($posts as $post):
 				echo '<li>'.get_the_title($post->ID).'</li>';
 			endforeach;
-		echo '<ol>';
+		echo '</ol>';
 	else :
 		echo 'Results not found';
 	endif;
